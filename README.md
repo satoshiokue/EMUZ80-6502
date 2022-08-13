@@ -33,6 +33,9 @@ EMUZ80技術資料8ページにしたがってemuz80_6502.hexファイルをPIC�
 xxd -i -c16 applesoft-liteROMv1.bin > applesoft-liteROMv1.txt
 ```
 
+Leoさんの「SBC6800に6502を載せてApple II BASIC Subset を走らせる」を試すことができます。
+https://yumeroku.blogspot.com/2020/06/sbc68006502apple-ii-basic-subset.html
+
 ## EMUZ80
 EUMZ80はZ80CPUとPIC18F47Q43のDIP40ピンIC2つで構成されるシンプルなコンピュータです。
 
