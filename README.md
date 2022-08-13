@@ -31,16 +31,23 @@ EMUZ80技術資料8ページにしたがってemuz80_6502.hexファイルをPIC�
 xxd -i -c16 applesoft-liteROMv1.bin > applesoft-liteROMv1.txt
 ```
 
+## EMUZ80
 EUMZ80はZ80CPUとPIC18F47Q43のDIP40ピンIC2つで構成されるシンプルなコンピュータです。
 
-電脳伝説 - EMUZ80が完成
-https://vintagechips.wordpress.com/2022/03/05/emuz80_reference
-EMUZ80専用プリント基板 - オレンジピコショップ
+![EMUZ80](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_Z80.jpeg)
+
+電脳伝説 - EMUZ80が完成  
+https://vintagechips.wordpress.com/2022/03/05/emuz80_reference  
+EMUZ80専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-051.html
 
+## phemu6809
 まもなくcomonekoさん(@comoneko)さんがEMUZ80にMC6809を搭載できるようにする変換基板とファームウェアphemu6809を発表されました。
-https://github.com/comoneko-nyaa/phemu6809conversionPCB
-phemu6809専用プリント基板 - オレンジピコショップ
+
+![phemu6809](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6809.jpeg)
+
+https://github.com/comoneko-nyaa/phemu6809conversionPCB  
+phemu6809専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-056.html
 
 ## Author
