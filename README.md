@@ -2,7 +2,10 @@
 
 ![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto.jpeg)
 
-電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。
+電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
+W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
+
+このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改編してGPLライセンスに基づいて公開するものです。
 
 ## 回路図
 https://github.com/satoshiokue/EMUZ80-Adapter-PCB/blob/main/65816.pdf
@@ -13,6 +16,11 @@ https://github.com/satoshiokue/EMUZ80-Adapter-PCB/blob/main/65816.pdf
 * emuz80_6502clk.c  デューティー比 50:50  
 
 EMUZ80で配布されているフォルダemuz80.X下のmain.cと置き換えて使用してください。
+
+emuz80_6502.cはメモリアクセス・通信I/O処理の完了でクロック信号をLowにして、その後クロック信号をHighにしてバスにアクセスします。  
+PICはクロック信号のデューティー比を変化させながらW65C02Sを動作させます。
+
+CPU動作実験にはPIC内蔵の数値制御発振器でクロック信号を生成しているemuz80_6502clk.c を推奨します。  
 
 ## アドレスマップ
 ```
@@ -37,7 +45,7 @@ xxd -i -c16 applesoft-liteROMv1.bin > applesoft-liteROMv1.txt
 Leoさんの「SBC6800に6502を載せてApple II BASIC Subset を走らせる」を試すことができます。
 https://yumeroku.blogspot.com/2020/06/sbc68006502apple-ii-basic-subset.html
 
-## EMUZ80
+## 参考）EMUZ80
 EUMZ80はZ80CPUとPIC18F47Q43のDIP40ピンIC2つで構成されるシンプルなコンピュータです。
 
 ![EMUZ80](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_Z80.jpeg)
@@ -47,7 +55,7 @@ https://vintagechips.wordpress.com/2022/03/05/emuz80_reference
 EMUZ80専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-051.html
 
-## phemu6809
+## 参考）phemu6809
 comonekoさん(@comoneko)さんがEMUZ80にMC6809を搭載できるようにする変換基板とファームウェアphemu6809を発表されました。
 
 ![phemu6809](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6809.jpeg)
