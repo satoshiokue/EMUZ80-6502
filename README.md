@@ -5,7 +5,7 @@
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
 W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 
-このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改編してGPLライセンスに基づいて公開するものです。
+このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改変してGPLライセンスに基づいて公開するものです。
 
 https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 
