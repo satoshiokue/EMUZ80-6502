@@ -5,12 +5,14 @@
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。
 
 ## 回路図
+https://github.com/satoshiokue/EMUZ80-Adapter-PCB/blob/main/65816.pdf
 
 ## ファームウェア
 ファームウェアはCPUクロックの生成方法が異なります。
 * emuz80_6502.c ソフトクロック
 * emuz80_6502clk.c  デューティー比 50:50  
-フォルダemuz80.X下のmain.cと置き換えて使用してください。
+
+EMUZ80で配布されているフォルダemuz80.X下のmain.cと置き換えて使用してください。
 
 ## アドレスマップ
 ```
@@ -42,21 +44,10 @@ EMUZ80専用プリント基板 - オレンジピコショップ
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-051.html
 
 ## phemu6809
-まもなくcomonekoさん(@comoneko)さんがEMUZ80にMC6809を搭載できるようにする変換基板とファームウェアphemu6809を発表されました。
+comonekoさん(@comoneko)さんがEMUZ80にMC6809を搭載できるようにする変換基板とファームウェアphemu6809を発表されました。
 
 ![phemu6809](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6809.jpeg)
 
 https://github.com/comoneko-nyaa/phemu6809conversionPCB  
 phemu6809専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-056.html
-
-## Author
-
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-
-## License
-"EMUZ80-6502" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
