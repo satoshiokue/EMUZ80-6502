@@ -2,15 +2,15 @@
 
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。
 
-# 回路図
+## 回路図
 
-# ファームウェア
+## ファームウェア
 ファームウェアはCPUクロックの生成方法が異なります。
 * emuz80_6502.c ソフトクロック
 * emuz80_6502clk.c  デューティー比 50:50  
 フォルダemuz80.X下のmain.cと置き換えて使用してください。
 
-# アドレスマップ
+## アドレスマップ
 ```
 RAM   0x0000 - 0x0FFF (0x1FFF:PIC18F47Q84)
 UART  0x8018   Control REGISTER
@@ -18,10 +18,10 @@ UART  0x8018   Control REGISTER
 ROM   0xC000 - 0xFFFF
 ```
 
-# テストプログラムの書き込み
+## テストプログラムの書き込み
 EMUZ80技術資料8ページにしたがってemuz80_6502.hexファイルをPICに書き込んでください。
 
-# 6502プログラムの改編
+## 6502プログラムの改編
 バイナリデータをテキストデータ化してファームウェアの配列rom[]に格納するとW65C02Sで実行できます。
 
 テキスト変換例
@@ -41,7 +41,7 @@ https://github.com/comoneko-nyaa/phemu6809conversionPCB
 phemu6809専用プリント基板 - オレンジピコショップ
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-056.html
 
-# Author
+## Author
 
 作成情報を列挙する
 
@@ -49,5 +49,5 @@ https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-056.html
 * 所属
 * E-mail
 
-# License
+## License
 "EMUZ80-6502" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
