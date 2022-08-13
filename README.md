@@ -7,6 +7,8 @@ W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 
 このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改編してGPLライセンスに基づいて公開するものです。
 
+https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
+
 ## 回路図
 https://github.com/satoshiokue/EMUZ80-Adapter-PCB/blob/main/65816.pdf
 
