@@ -47,6 +47,14 @@ xxd -i -c16 applesoft-liteROMv1.bin > applesoft-liteROMv1.txt
 Leoさんの「SBC6800に6502を載せてApple II BASIC Subset を走らせる」を試すことができます。
 https://yumeroku.blogspot.com/2020/06/sbc68006502apple-ii-basic-subset.html
 
+## 65816に対応
+
+65816はPin3、Pin38の入出力が逆になります。  
+ファームウェアで無効化してある #define CPU_65816 を有効化するとPICのGPIO設定を65816用に切り替えます。
+
+LED1とR1を実装すると65816がnative mode状態で点灯します。  
+LEDの電流は65816の吸い込み電流が最大1.6mAなので暗く点灯します。
+
 ## 謝辞
 思い入れのあるCPUを動かすことのできるシンプルで美しいEMUZ80を開発された電脳伝説さんに感謝いたします。
 
