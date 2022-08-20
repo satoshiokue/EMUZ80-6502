@@ -5,6 +5,12 @@
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
 W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 
+W65C02S 14MHz  
+UM6502A 2MHz  
+SYU6502A 2MHz
+
+W65C816S 14MHz
+
 このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改変してGPLライセンスに基づいて公開するものです。
 
 https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
@@ -26,14 +32,14 @@ CPU動作実験にはPIC内蔵の数値制御発振器でクロック信号を�
 
 ## アドレスマップ
 ```
-RAM   0x0000 - 0x0FFF (0x1FFF:PIC18F47Q84)
+RAM   0x0000 - 0x0FFF (0x1FFF:PIC18F47Q84,PIC18F47Q83)
 UART  0x8018   Control REGISTER
       0x8019   Data REGISTER
 ROM   0xC000 - 0xFFFF
 ```
 
 ## テストプログラムの書き込み
-EMUZ80技術資料8ページにしたがってemuz80_6502.hexファイルをPICに書き込んでください。  
+EMUZ80技術資料8ページにしたがって適合するemuz80_6502_Qxx.hexファイルをPICに書き込んでください。  
 6502が起動するとメッセージが出力されます。キーを押すたびに同じメッセージが表示されます。
 
 ## 6502プログラムの改編
