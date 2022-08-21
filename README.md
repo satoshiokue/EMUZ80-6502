@@ -1,6 +1,10 @@
 # EMUZ80-6502
 
-![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto.jpeg)
+![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto2.jpeg)  
+試作基板二号
+
+![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto.jpeg)  
+ブレッドボード試作
 
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
 W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
