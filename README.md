@@ -46,6 +46,13 @@ ROM   0xC000 - 0xFFFF
 EMUZ80技術資料8ページにしたがって適合するemuz80_6502_Qxx.hexファイルをPICに書き込んでください。  
 6502が起動するとメッセージが出力されます。キーを押すたびに同じメッセージが表示されます。
 
+## Enhanced 6502 BASIC
+
+EMUZ80技術資料8ページにしたがって適合するEhBASIC222p5_Qxx.hexファイルをPICに書き込んでください。
+
+ENHANCED 6502 BASIC  
+http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/enhanced-6502-basic/
+
 ## 6502プログラムの改編
 バイナリデータをテキストデータ化してファームウェアの配列rom[]に格納するとW65C02Sで実行できます。
 
