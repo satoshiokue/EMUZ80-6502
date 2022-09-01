@@ -31,6 +31,11 @@
  *  https://github.com/yyhayami/emuz80_hayami/tree/main/emuz80_clc.X 
 */
 
+
+//#define CPU_6502_1MHz
+//#define CPU_65816
+
+
 // CONFIG1
 #pragma config FEXTOSC = OFF    // External Oscillator Selection (Oscillator not enabled)
 #pragma config RSTOSC = HFINTOSC_64MHZ// Reset Oscillator Selection (HFINTOSC with HFFRQ = 64 MHz and CDIV = 1:1)
@@ -93,9 +98,6 @@
 
 #include <xc.h>
 #include <stdio.h>
-
-//#define CPU_6502_1MHz
-//#define CPU_65816
 
 #define ROM_SIZE 0x4000 //16K bytes
 #ifndef _18F47Q43
@@ -160,7 +162,7 @@ void main(void) {
     LATA0 = 0; // Reset
     TRISA0 = 0; // Set as output
 
-    // 6502 clock(RA1) by NCO FDC mode
+    // 6502 clock(RA1) output pin
     ANSELA1 = 0; // Disable analog function
     LATA1 = 0; // Clock signal = low
     TRISA1 = 0; // Set as output
