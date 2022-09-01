@@ -1,5 +1,8 @@
 # EMUZ80-6502
 
+![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto3.jpeg)  
+
+
 ![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto2.jpeg)  
 試作基板二号
 
