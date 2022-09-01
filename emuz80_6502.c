@@ -335,7 +335,7 @@ void main(void) {
             );
 
         } else if(CLC2OUT) {              // RAM area
-        if(RA3)                         // RAM Read cycle
+        if(RA3)                           // RAM Read cycle
 #ifndef _18F47Q43
             asm(
             "clrf  TRISC,c          \n"   // Set data bus as output
@@ -358,7 +358,7 @@ void main(void) {
             );
 #endif
 
-        else                            // RAM write cycle
+        else                              // RAM write cycle
 #ifndef _18F47Q43
             asm(
             "movff PORTB,FSR2L       \n"
