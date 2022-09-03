@@ -22,8 +22,11 @@ W65C816S 14MHz
 
 https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 
+## メザニンボード
+https://github.com/satoshiokue/MEZ6502
+
 ## 回路図
-https://github.com/satoshiokue/EMUZ80-Adapter-PCB/blob/main/65816.pdf
+https://github.com/satoshiokue/MEZ6502/blob/main/MEZ6502.pdf
 
 ## ファームウェア
 ファームウェアはCPUクロックの生成方法が異なります。
