@@ -1,6 +1,6 @@
 # EMUZ80-6502
 
-![MEZ6502](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto3.jpeg)  
+![MEZ6502](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto4.jpeg)  
 
 
 ![MEZ6502 Prototype2](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto2.jpeg)  
@@ -15,6 +15,7 @@ W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 W65C02S 14MHz  
 UM6502A 2MHz  
 SYU6502A 2MHz
+R65C02P2 2MHz
 
 W65C816S 14MHz
 
