@@ -50,7 +50,20 @@ ROM   0xC000 - 0xFFFF
 ```
 
 ## PICプログラムの書き込み
-EMUZ80技術資料8ページにしたがって適合するemuz80_6502_Qxx.hexファイルをPICに書き込んでください。  
+EMUZ80技術資料8ページにしたがってPICに適合するemuz80_6502_Qxx.hexファイルを書き込んでください。  
+
+```
+6502 EhBASIC [C]old/[W]arm ?
+
+Memory size ?
+
+Enhanced BASIC 2.22p5a
+3327 Bytes free
+
+Ready
+```
+起動メッセージが出たら「c」キーを押します。Memory sizeでリターンキーを押すと利用可能な最大メモリでBASICの起動が完了します。
+
 
 ENHANCED 6502 BASIC  
 http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/enhanced-6502-basic/
