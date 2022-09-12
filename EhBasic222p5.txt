@@ -1,6 +1,6 @@
 /* Enhanced 6502 BASIC 2.22p5a
  * Derived from EhBASIC
- * https://philpem.me.uk/leeedavison/6502/ehbasic/using.html
+ * https://philpem.me.uk/leeedavison/6502/ehbasic/
  *
  * ORG   $C000
  * 
