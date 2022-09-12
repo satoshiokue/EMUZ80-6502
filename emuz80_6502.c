@@ -8,7 +8,7 @@
  * Modified by Satoshi Okue https://twitter.com/S_Okue
  * Version 0.1 2022/8/13
  * Version 0.2 2022/8/20
- * Version 0.3 2022/8/20
+ * Version 0.3 2022/9/12
  */
 
 /*
@@ -395,7 +395,7 @@ void main(void) {
 }
 
 const unsigned char rom[ROM_SIZE] __at(0xc000)= {
-// Enhanced BASIC 2.22p5a
+// Enhanced 6502 BASIC 2.22p5a
 // Derived from EhBASIC
 // 0xC000
   0x4c, 0x00, 0xfe, 0xa2, 0x05, 0xbd, 0x49, 0xe1, 0x9d, 0x00, 0x02, 0xca, 0x10, 0xf7, 0x9a, 0x86,
