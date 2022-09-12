@@ -49,13 +49,8 @@ UART  0x8018   Control REGISTER
 ROM   0xC000 - 0xFFFF
 ```
 
-## テストプログラムの書き込み
+## PICプログラムの書き込み
 EMUZ80技術資料8ページにしたがって適合するemuz80_6502_Qxx.hexファイルをPICに書き込んでください。  
-6502が起動するとメッセージが出力されます。キーを押すたびに同じメッセージが表示されます。
-
-## Enhanced 6502 BASIC
-
-EMUZ80技術資料8ページにしたがって適合するEhBASIC222p5_Qxx.hexファイルをPICに書き込んでください。
 
 ENHANCED 6502 BASIC  
 http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/enhanced-6502-basic/
