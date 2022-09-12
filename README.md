@@ -65,8 +65,8 @@ Ready
 起動メッセージが出たら「c」キーを押します。Memory sizeでリターンキーを押すと利用可能な最大メモリでBASICの起動が完了します。
 
 
-ENHANCED 6502 BASIC  
-http://retro.hansotten.nl/6502-sbc/lee-davison-web-site/enhanced-6502-basic/
+Enhanced 6502 BASIC by Lee Davison  
+https://philpem.me.uk/leeedavison/6502/ehbasic/
 
 ## 6502プログラムの改編
 バイナリデータをテキストデータ化してファームウェアの配列rom[]に格納するとW65C02Sで実行できます。
