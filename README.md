@@ -27,8 +27,10 @@ https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 ## メザニンボード
 https://github.com/satoshiokue/MEZ6502
 
+
 EMUZ80-6502メザニンボード専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-058.html
+
 
 ## 回路図
 https://github.com/satoshiokue/MEZ6502/blob/main/MEZ6502.pdf
