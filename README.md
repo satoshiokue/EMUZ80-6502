@@ -12,11 +12,13 @@
 電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
 W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 
+動作確認で使用したCPU
 W65C02S 14MHz  
 R65C02P2 2MHz  
 SYU6502A 2MHz  
 UM6502A 2MHz  
 UM6502 1MHz  
+MOS6502 1MHz  
 
 W65C816S 14MHz
 
