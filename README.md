@@ -30,7 +30,7 @@ https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 https://github.com/satoshiokue/MEZ6502
 
 
-EMUZ80-6502メザニンボード専用プリント基板 - オレンジピコショップ  
+MEZ6502専用プリント基板 - オレンジピコショップ  
 https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-058.html
 
 
