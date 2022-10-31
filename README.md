@@ -9,7 +9,7 @@
 ![6502 Prototype](https://github.com/satoshiokue/EMUZ80-6502/blob/main/imgs/IMG_6502_proto.jpeg)  
 ブレッドボード試作
 
-電脳伝説さん(@vintagechips)のEMUZ80で信号を組み替えたW65C02Sを動作させることができます。  
+電脳伝説さん(@vintagechips)のEMUZ80が出力するZ80 CPU信号をメザニンボードで組み替え、W65C02Sを動作させることができます。  
 W65C02SとPIC18F47Q43の組み合わせで動作確認しています。
 
 動作確認で使用したCPU
