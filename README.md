@@ -60,6 +60,9 @@ ROM   0xC000 - 0xFFFF
 ## PICプログラムの書き込み
 EMUZ80技術資料8ページにしたがってPICに適合するemuz80_6502_Qxx.hexファイルを書き込んでください。  
 
+またはArduino UNOを用いてPICを書き込みます。  
+https://github.com/satoshiokue/Arduino-PIC-Programmer
+
 ```
 6502 EhBASIC [C]old/[W]arm ?
 
